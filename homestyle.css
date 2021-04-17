@@ -36,6 +36,7 @@ h3{
 	top: 60%;
 	left: 37%;
 	z-index: 30;
+	animation: button 3s ease-in;
 } 
 .button1:hover {
   background-color: #fcffd9;
@@ -47,6 +48,7 @@ position: absolute;
 	top: 60%;
 	left: 50%;
 z-index: 30;
+animation: button 3s ease-in;
 } 
 .button2:hover {
   background-color: #fcffd9;
@@ -57,6 +59,7 @@ position: absolute;
 	top: 60%;
 	left: 60%;
 z-index: 30;
+animation: button 3s ease-in;
 } 
 .button3:hover {
   background-color: #fcffd9;
@@ -71,10 +74,16 @@ position: absolute;
 	background-color: #ffe5d9;
 	text-align: center;  
 z-index: 20;
+animation: button 3s ease-in;
 
 }
-@keyframes FadeIn {
+@keyframes fadeIn {
   0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes button {
+  0%   { opacity: 0; }
+  20% { opacity: 0; }
   100% { opacity: 1; }
 }
 
