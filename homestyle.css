@@ -16,7 +16,7 @@ h3{
 	width: 600px;
 	height: 100px;
 	color: #9d8189;
-	
+	animation: fadeIn 2s ease-in;
   }
   .button {
   border: none;
@@ -34,25 +34,37 @@ h3{
 	position: absolute;
 	background-color: #ffcad4;
 	top: 60%;
-	left: 35%;
+	left: 37%;
 	z-index: 30;
 } 
+.button1:hover {
+  background-color: #fcffd9;
+  color: white;
+}
 
 .button2 {background-color: #f4acb7;
 position: absolute;
 	top: 60%;
-	left: 48%;
+	left: 50%;
 z-index: 30;
 } 
+.button2:hover {
+  background-color: #fcffd9;
+  color: white;
+}
 .button3 {background-color: #d8e2dc;
 position: absolute;
 	top: 60%;
-	left: 59%;
+	left: 60%;
 z-index: 30;
 } 
+.button3:hover {
+  background-color: #fcffd9;
+  color: white;
+}
 h1{
 position: absolute;
-	width: 600px;
+	width: 45%;
 	height: 150px;
 	left: 30%;
 	top: 50%;
@@ -60,5 +72,9 @@ position: absolute;
 	text-align: center;  
 z-index: 20;
 
+}
+@keyframes FadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
 
