@@ -1,7 +1,7 @@
 
 
 html, body {
-  background-image: url('Escape.gif');
+  background-image: url('EscapeBG.gif');
     background-size: cover;
     
   
@@ -14,7 +14,7 @@ html, body {
     display: none;
   }
   .button1 {
-  background-color: white; 
+  background-color: red; 
   color: black; 
   border: 2px solid #4CAF50;
 }
