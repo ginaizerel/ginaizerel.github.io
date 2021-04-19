@@ -70,10 +70,11 @@ animation: button 3s ease-in;
 
 .button1, .button2, .button3 {
   display: inline-block;
+   max-width: 200px;
 }
 h1{
 position: fixed;
-	width: 650px;
+	width: 700px;
 	height: 150px;
 	left: 30%;
 	top: 50%;
@@ -82,6 +83,7 @@ position: fixed;
 	float: center; 
 z-index: 20;
 animation: button 3s ease-in;
+max-width: 700px;
 
 }
 @keyframes fadeIn {
@@ -94,4 +96,7 @@ animation: button 3s ease-in;
   100% { opacity: 1; }
 }
 
+* {
+  box-sizing: border-box;
+}
 
