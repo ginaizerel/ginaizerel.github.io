@@ -3,24 +3,35 @@
 html, body {
   background-image: url('Rejuvenate.gif');
     background-size: cover;
-    
-  
-    
     height: 100vh;
     padding:0;
     margin:0;
-
-  .slides, & > .dg {
+}
+ 
+.slides, & > .dg {
     display: none;
   }
-  .button1 {
-  background-color: yellow; 
-  color: black; 
-  border: 2px solid #4CAF50;
+ 
+.home {
+  background-color: #303030;
+  border: none;
+  color: #e6056a;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  animation: fadeIn 3s ease-in;
+  
 }
-.button1:hover{
- background-color: yellow; 
+ 
+.home:hover{
+background-color: #575757;
+color: #fcffd9;
 }
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
-}
-

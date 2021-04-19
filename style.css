@@ -1,33 +1,38 @@
 
 
+
 html, body {
   background-image: url('Relax.gif');
     background-size: cover;
-    
     height: 100vh;
     padding:0;
     margin:0;
-
-  .slides, & > .dg {
+}
+ 
+.slides, & > .dg {
     display: none;
   }
-  .button {
-   border: none;
-  color: white;
-  padding: 15px 32px;
+ 
+.home {
+  background-color: #d1e3f0;
+  border: none;
+  color: #897c91;
+  padding: 10px 15px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  background-color: red;
+  animation: fadeIn 3s ease-in;
+  
 }
-.home:hover {
-  background-color: yellow;
-  color: white;
-
-
+ 
+.home:hover{
+background-color: #e2d1e6;
+color: white;
 }
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
-

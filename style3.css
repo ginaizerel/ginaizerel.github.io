@@ -3,21 +3,35 @@
 html, body {
   background-image: url('EscapeBG.gif');
     background-size: cover;
-    
-  
-    
     height: 100vh;
     padding:0;
     margin:0;
-
-  .slides, & > .dg {
+}
+ 
+.slides, & > .dg {
     display: none;
   }
-  .button1 {
-  background-color: red; 
-  color: black; 
-  border: 2px solid #4CAF50;
+ 
+.home {
+  background-color: #f7f6e1;
+  border: none;
+  color: #686d6e;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  animation: fadeIn 3s ease-in;
+  
 }
+ 
+.home:hover{
+background-color: #ff8f87;
+color: #fcffd9;
 }
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
-
