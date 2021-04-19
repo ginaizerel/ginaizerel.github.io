@@ -83,7 +83,7 @@ position: fixed;
 	float: center; 
 z-index: 20;
 animation: button 3s ease-in;
-max-width: 850px;
+max-width: 900px;
 min-width: 700px;
 
 }
